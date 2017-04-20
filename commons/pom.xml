@@ -14,35 +14,10 @@
     <url>http://maven.apache.org</url>
 
     <modules>
-        <module>commons-spring</module>
+        <module>commons-spring-boot</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <!-- dependency management -->
-    <dependencyManagement>
-        <dependencies>
-            <!-- spring-boot-starter -->
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter</artifactId>
-                <version>${spring-boot-version}</version>
-            </dependency>
-            <!-- auto create spring-configuration-metadata.json by @ConfigurationProperty -->
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-configuration-processor</artifactId>
-                <version>${spring-boot-version}</version>
-                <optional>true</optional>
-            </dependency>
-            <!-- spring-data-redis -->
-            <dependency>
-                <groupId>org.springframework.data</groupId>
-                <artifactId>spring-data-redis</artifactId>
-                <version>${spring-data}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 </project>

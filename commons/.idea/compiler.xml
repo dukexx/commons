@@ -7,12 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="boot-starter-shiro" />
+        <module name="commons-spring-boot-starter-shiro" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="boot-starter-shiro" target="1.5" />
-      <module name="commons" target="1.5" />
+      <module name="commons" target="1.8" />
       <module name="commons-boot" target="1.5" />
+      <module name="commons-spring" target="1.8" />
+      <module name="commons-spring-boot" target="1.8" />
+      <module name="commons-spring-boot-starter-shiro" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

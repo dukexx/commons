@@ -1,0 +1,176 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroProperties",
+      "name": "shiro",
+      "type": "com.dukexx.boot.shiro.properties.ShiroProperties"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroCacheProperties",
+      "name": "shiro.cache",
+      "type": "com.dukexx.boot.shiro.properties.ShiroCacheProperties"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroFilterProperties",
+      "name": "shiro.filter",
+      "type": "com.dukexx.boot.shiro.properties.ShiroFilterProperties"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroRedisProperties",
+      "name": "shiro.redisTemplate",
+      "type": "com.dukexx.boot.shiro.properties.ShiroRedisProperties"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroSessionProperties",
+      "name": "shiro.session",
+      "type": "com.dukexx.boot.shiro.properties.ShiroSessionProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroProperties",
+      "name": "shiro.cache",
+      "type": "com.dukexx.boot.shiro.properties.ShiroCacheProperties"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroCacheProperties",
+      "name": "shiro.cache.ehcache-location",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroCacheProperties",
+      "name": "shiro.cache.open-realm-cache",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroCacheProperties",
+      "name": "shiro.cache.ref",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroCacheProperties",
+      "name": "shiro.cache.type",
+      "type": "com.dukexx.boot.shiro.properties.ShiroCacheProperties$CacheType"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroProperties",
+      "name": "shiro.filter",
+      "type": "com.dukexx.boot.shiro.properties.ShiroFilterProperties"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroFilterProperties",
+      "name": "shiro.filter.chain-dao-ref",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroFilterProperties",
+      "name": "shiro.filter.filter-chain",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroFilterProperties",
+      "name": "shiro.filter.filter-chain-map",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroFilterProperties",
+      "name": "shiro.filter.filters",
+      "type": "java.util.Map<java.lang.String,java.lang.Class>"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroFilterProperties",
+      "defaultValue": "\/login",
+      "name": "shiro.filter.login-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroFilterProperties",
+      "defaultValue": "\/success",
+      "name": "shiro.filter.success-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroFilterProperties",
+      "defaultValue": "\/unauthorized",
+      "name": "shiro.filter.unauth-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroProperties",
+      "name": "shiro.redis-template",
+      "type": "com.dukexx.boot.shiro.properties.ShiroRedisProperties"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroRedisProperties",
+      "name": "shiro.redisTemplate.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroRedisProperties",
+      "defaultValue": 1024,
+      "name": "shiro.redisTemplate.max-total",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroRedisProperties",
+      "defaultValue": 1000,
+      "name": "shiro.redisTemplate.max-wait-millis",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroRedisProperties",
+      "defaultValue": 200,
+      "name": "shiro.redisTemplate.min-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroRedisProperties",
+      "name": "shiro.redisTemplate.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroRedisProperties",
+      "name": "shiro.redisTemplate.ref",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroProperties",
+      "name": "shiro.session",
+      "type": "com.dukexx.boot.shiro.properties.ShiroSessionProperties"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroSessionProperties",
+      "name": "shiro.session.cookie",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroSessionProperties",
+      "defaultValue": true,
+      "name": "shiro.session.http-only",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroSessionProperties",
+      "defaultValue": "SHIRO_SESSION_KEY_",
+      "name": "shiro.session.prefix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroSessionProperties",
+      "defaultValue": 1800000,
+      "name": "shiro.session.timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroSessionProperties",
+      "name": "shiro.session.type",
+      "type": "com.dukexx.boot.shiro.properties.ShiroSessionProperties$SessionType"
+    },
+    {
+      "sourceType": "com.dukexx.boot.shiro.properties.ShiroProperties",
+      "name": "shiro.type",
+      "type": "com.dukexx.boot.shiro.properties.ShiroProperties$Type"
+    }
+  ]
+}

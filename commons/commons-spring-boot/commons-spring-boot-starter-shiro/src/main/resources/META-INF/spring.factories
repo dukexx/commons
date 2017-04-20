@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.dukexx.boot.shiro.autoconfigure.ShiroAutoConfiguration,\
+  com.dukexx.boot.shiro.autoconfigure.ShiroRedisSessionAutoConfigration
