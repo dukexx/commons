@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="commons-dependencies" target="1.8" />
+      <module name="commons-dependencies" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
