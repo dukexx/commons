@@ -17,6 +17,7 @@
     <modules>
         <module>commons-shiro</module>
         <module>commons-spring-boot</module>
+        <module>commons-concurrent</module>
     </modules>
 
     <properties>
